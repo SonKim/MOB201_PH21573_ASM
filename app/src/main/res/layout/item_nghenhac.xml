@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/ivMusic"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:src="@drawable/ic_music" />
+
+    <TextView
+        android:id="@+id/tvTenBaiHat"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/ivMusic"
+        android:gravity="center"
+        android:text="Tên bài hát"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivStop"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_stop" />
+
+    <ImageView
+        android:id="@+id/ivPlay"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_toLeftOf="@id/ivStop"
+        android:src="@drawable/ic_play" />
+</RelativeLayout>
